@@ -6,4 +6,5 @@ import "tier3.proto";
 message HelloImported {
   string hello = 1;
   Tier3Message tier3 = 2;
+  string hi = 3;
 }
