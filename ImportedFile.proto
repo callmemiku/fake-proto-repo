@@ -1,9 +1,9 @@
 syntax = "proto3";
 
 package imported.test;
-import "tierThree.proto";
+import "tier3.proto";
 
 message HelloImported {
   string hello = 1;
-  TierThree tier3 = 2;
+  Tier3Message tier3 = 2;
 }
