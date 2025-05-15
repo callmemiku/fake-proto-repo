@@ -1,8 +1,0 @@
-syntax = "proto3";
-package import.test;
-import "ImportedFile.proto";
-
-message ImportTest {
-    HelloImported hello = 1;
-    string hi = 2;
-}
