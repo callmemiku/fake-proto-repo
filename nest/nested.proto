@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package imported.test;
+
+message Nest2 {
+  string hello = 1;
+}
