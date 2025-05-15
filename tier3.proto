@@ -2,6 +2,6 @@ syntax = "proto3";
 
 package imported.test;
 
-message TierThree {
+message Tier3Message {
   string hello = 1;
 }
