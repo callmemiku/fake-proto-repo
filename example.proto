@@ -1,7 +1,9 @@
 syntax = "proto3";
+import "nest/nested.proto";
 
 message SearchRequest {
   string query = 1;
   int32 page_number = 2;
   int32 results_per_page = 3;
+  Nest2 nest2 = 4;
 }
