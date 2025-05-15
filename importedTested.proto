@@ -1,8 +1,12 @@
 syntax = "proto3";
 package imported.test;
 import "ImportedFile.proto";
+import "nested.proto";
+import "nest/nested.proto";
 
 message importedTested {
     HelloImported hello = 1;
     string hi = 2;
+    Nest1 nest1 = 3;
+    Nest2 nest2 = 4;;
 }
