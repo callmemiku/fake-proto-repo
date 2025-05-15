@@ -1,5 +1,5 @@
 syntax = "proto3";
-package import.test;
+package imported.test;
 import "ImportedFile.proto";
 
 message ImportTest {
