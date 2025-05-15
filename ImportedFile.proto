@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package import.test;
+
+message HelloImported {
+  string hello = 1;
+}
