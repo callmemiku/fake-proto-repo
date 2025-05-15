@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package imported.test;
-
+option java_outer_classname = "Nested2";
 message Nest2 {
   string hello = 1;
 }
