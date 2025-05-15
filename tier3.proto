@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package imported.test;
+
+message Tier3Message {
+  string hello = 1;
+}
